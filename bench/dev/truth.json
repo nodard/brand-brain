@@ -1,0 +1,1406 @@
+{
+ "Ferro Coffee": [
+  {
+   "ts": "2026-08-01T10:51",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-01T11:22",
+   "entity": "Harbor Mug",
+   "attribute": "price",
+   "value": "$29"
+  },
+  {
+   "ts": "2026-08-01T17:00",
+   "entity": "Ferro Coffee",
+   "attribute": "free_shipping_threshold",
+   "value": "$65"
+  },
+  {
+   "ts": "2026-08-02T09:44",
+   "entity": "Ferro Coffee",
+   "attribute": "promo_code",
+   "value": "COZY15"
+  },
+  {
+   "ts": "2026-08-02T12:47",
+   "entity": "Ferro Coffee",
+   "attribute": "daily_ad_cap",
+   "value": "$750"
+  },
+  {
+   "ts": "2026-08-02T14:00",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$42"
+  },
+  {
+   "ts": "2026-08-02T17:49",
+   "entity": "Sage Bundle",
+   "attribute": "supplier",
+   "value": "Marlow & Co"
+  },
+  {
+   "ts": "2026-08-02T17:51",
+   "entity": "Sage Bundle",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-08-03T12:22",
+   "entity": "Ferro Coffee",
+   "attribute": "hero_sku",
+   "value": "Sage Bundle"
+  },
+  {
+   "ts": "2026-08-03T13:07",
+   "entity": "Ferro Coffee",
+   "attribute": "target_customer",
+   "value": "busy professionals"
+  },
+  {
+   "ts": "2026-08-03T13:41",
+   "entity": "Harbor Mug",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-03T14:54",
+   "entity": "Sage Bundle",
+   "attribute": "price",
+   "value": "$45"
+  },
+  {
+   "ts": "2026-08-03T15:23",
+   "entity": "Ferro Coffee",
+   "attribute": "return_window",
+   "value": "45 days"
+  },
+  {
+   "ts": "2026-08-03T15:41",
+   "entity": "Ferro Coffee",
+   "attribute": "agency",
+   "value": "Copperhouse"
+  },
+  {
+   "ts": "2026-08-04T12:27",
+   "entity": "Ferro Coffee",
+   "attribute": "free_shipping_threshold",
+   "value": "$35"
+  },
+  {
+   "ts": "2026-08-06T15:42",
+   "entity": "Ferro Coffee",
+   "attribute": "daily_ad_cap",
+   "value": "$250"
+  },
+  {
+   "ts": "2026-08-14T17:59",
+   "entity": "Ferro Coffee",
+   "attribute": "target_customer",
+   "value": "first-time homeowners"
+  },
+  {
+   "ts": "2026-08-22T09:30",
+   "entity": "Ferro Coffee",
+   "attribute": "return_window",
+   "value": "14 days"
+  },
+  {
+   "ts": "2026-08-23T16:44",
+   "entity": "Harbor Mug",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-08-24T09:53",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-08-25T17:53",
+   "entity": "Ferro Coffee",
+   "attribute": "target_customer",
+   "value": "remote workers"
+  },
+  {
+   "ts": "2026-08-30T12:48",
+   "entity": "Ferro Coffee",
+   "attribute": "hero_sku",
+   "value": "Cedar Serum"
+  },
+  {
+   "ts": "2026-09-05T10:10",
+   "entity": "Harbor Mug",
+   "attribute": "price",
+   "value": "$24"
+  },
+  {
+   "ts": "2026-09-16T17:39",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$59"
+  },
+  {
+   "ts": "2026-09-20T12:37",
+   "entity": "Ferro Coffee",
+   "attribute": "promo_code",
+   "value": "FALL15"
+  },
+  {
+   "ts": "2026-09-21T14:35",
+   "entity": "Ferro Coffee",
+   "attribute": "daily_ad_cap",
+   "value": "$500"
+  },
+  {
+   "ts": "2026-09-22T14:29",
+   "entity": "Sage Bundle",
+   "attribute": "price",
+   "value": "$29"
+  },
+  {
+   "ts": "2026-09-23T14:29",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$45"
+  },
+  {
+   "ts": "2026-09-27T13:59",
+   "entity": "Ferro Coffee",
+   "attribute": "hero_sku",
+   "value": "Sage Bundle"
+  },
+  {
+   "ts": "2026-10-03T09:51",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$28"
+  },
+  {
+   "ts": "2026-10-04T15:53",
+   "entity": "Ferro Coffee",
+   "attribute": "hero_sku",
+   "value": "Harbor Mug"
+  },
+  {
+   "ts": "2026-10-08T16:30",
+   "entity": "Harbor Mug",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-10-11T10:55",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-10-11T15:03",
+   "entity": "Sage Bundle",
+   "attribute": "supplier",
+   "value": "Coastline Goods"
+  },
+  {
+   "ts": "2026-10-15T16:00",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-10-16T10:28",
+   "entity": "Ferro Coffee",
+   "attribute": "daily_ad_cap",
+   "value": "$1200"
+  },
+  {
+   "ts": "2026-10-16T11:32",
+   "entity": "Ferro Coffee",
+   "attribute": "agency",
+   "value": "Brightline Media"
+  },
+  {
+   "ts": "2026-10-18T14:36",
+   "entity": "Sage Bundle",
+   "attribute": "supplier",
+   "value": "Marlow & Co"
+  },
+  {
+   "ts": "2026-10-19T12:34",
+   "entity": "Ferro Coffee",
+   "attribute": "agency",
+   "value": "Fable & Funnel"
+  },
+  {
+   "ts": "2026-10-21T13:18",
+   "entity": "Ferro Coffee",
+   "attribute": "target_customer",
+   "value": "gift buyers"
+  }
+ ],
+ "Halcyon Socks": [
+  {
+   "ts": "2026-08-01T10:22",
+   "entity": "Atlas Set",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-01T12:20",
+   "entity": "Ember Bundle",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-08-01T12:38",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$45"
+  },
+  {
+   "ts": "2026-08-01T17:31",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-08-02T10:02",
+   "entity": "Halcyon Socks",
+   "attribute": "promo_code",
+   "value": "COZY25"
+  },
+  {
+   "ts": "2026-08-02T10:44",
+   "entity": "Halcyon Socks",
+   "attribute": "return_window",
+   "value": "90 days"
+  },
+  {
+   "ts": "2026-08-02T13:27",
+   "entity": "River Blend",
+   "attribute": "supplier",
+   "value": "Coastline Goods"
+  },
+  {
+   "ts": "2026-08-02T16:28",
+   "entity": "River Blend",
+   "attribute": "price",
+   "value": "$32"
+  },
+  {
+   "ts": "2026-08-02T17:08",
+   "entity": "Halcyon Socks",
+   "attribute": "daily_ad_cap",
+   "value": "$250"
+  },
+  {
+   "ts": "2026-08-03T09:18",
+   "entity": "Halcyon Socks",
+   "attribute": "agency",
+   "value": "Hatch Growth"
+  },
+  {
+   "ts": "2026-08-03T11:05",
+   "entity": "Halcyon Socks",
+   "attribute": "target_customer",
+   "value": "eco-conscious millennials"
+  },
+  {
+   "ts": "2026-08-03T12:10",
+   "entity": "Halcyon Socks",
+   "attribute": "hero_sku",
+   "value": "River Blend"
+  },
+  {
+   "ts": "2026-08-03T16:17",
+   "entity": "Halcyon Socks",
+   "attribute": "free_shipping_threshold",
+   "value": "$35"
+  },
+  {
+   "ts": "2026-08-04T14:30",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$42"
+  },
+  {
+   "ts": "2026-08-07T13:26",
+   "entity": "Halcyon Socks",
+   "attribute": "return_window",
+   "value": "45 days"
+  },
+  {
+   "ts": "2026-08-19T11:49",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$64"
+  },
+  {
+   "ts": "2026-08-20T15:02",
+   "entity": "Halcyon Socks",
+   "attribute": "daily_ad_cap",
+   "value": "$1000"
+  },
+  {
+   "ts": "2026-08-20T15:23",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-09-03T12:44",
+   "entity": "Halcyon Socks",
+   "attribute": "target_customer",
+   "value": "outdoor runners"
+  },
+  {
+   "ts": "2026-09-04T14:32",
+   "entity": "Halcyon Socks",
+   "attribute": "agency",
+   "value": "Brightline Media"
+  },
+  {
+   "ts": "2026-09-10T14:56",
+   "entity": "River Blend",
+   "attribute": "price",
+   "value": "$45"
+  },
+  {
+   "ts": "2026-09-19T14:18",
+   "entity": "Halcyon Socks",
+   "attribute": "promo_code",
+   "value": "WELCOME30"
+  },
+  {
+   "ts": "2026-09-22T14:59",
+   "entity": "Halcyon Socks",
+   "attribute": "promo_code",
+   "value": "WELCOME10"
+  },
+  {
+   "ts": "2026-09-23T15:09",
+   "entity": "River Blend",
+   "attribute": "price",
+   "value": "$59"
+  },
+  {
+   "ts": "2026-09-23T16:25",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-09-25T13:46",
+   "entity": "Atlas Set",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-09-29T09:25",
+   "entity": "Halcyon Socks",
+   "attribute": "hero_sku",
+   "value": "Atlas Set"
+  },
+  {
+   "ts": "2026-10-02T09:18",
+   "entity": "River Blend",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-10-04T10:41",
+   "entity": "Halcyon Socks",
+   "attribute": "return_window",
+   "value": "60 days"
+  },
+  {
+   "ts": "2026-10-07T13:31",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-10-07T15:51",
+   "entity": "Halcyon Socks",
+   "attribute": "return_window",
+   "value": "45 days"
+  },
+  {
+   "ts": "2026-10-10T10:10",
+   "entity": "Ember Bundle",
+   "attribute": "price",
+   "value": "$29"
+  },
+  {
+   "ts": "2026-10-12T12:20",
+   "entity": "Halcyon Socks",
+   "attribute": "hero_sku",
+   "value": "Ember Bundle"
+  },
+  {
+   "ts": "2026-10-13T16:52",
+   "entity": "Halcyon Socks",
+   "attribute": "target_customer",
+   "value": "first-time homeowners"
+  },
+  {
+   "ts": "2026-10-15T10:39",
+   "entity": "Halcyon Socks",
+   "attribute": "hero_sku",
+   "value": "Atlas Set"
+  },
+  {
+   "ts": "2026-10-16T10:24",
+   "entity": "Halcyon Socks",
+   "attribute": "promo_code",
+   "value": "GLOW15"
+  },
+  {
+   "ts": "2026-10-21T11:58",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-10-26T16:20",
+   "entity": "Halcyon Socks",
+   "attribute": "free_shipping_threshold",
+   "value": "$65"
+  }
+ ],
+ "Lumen Candles": [
+  {
+   "ts": "2026-08-01T10:03",
+   "entity": "Lumen Candles",
+   "attribute": "agency",
+   "value": "Tandem Creative"
+  },
+  {
+   "ts": "2026-08-01T10:16",
+   "entity": "Aurora Tee",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-08-01T11:52",
+   "entity": "Willow Kit",
+   "attribute": "price",
+   "value": "$38"
+  },
+  {
+   "ts": "2026-08-01T12:43",
+   "entity": "Lumen Candles",
+   "attribute": "free_shipping_threshold",
+   "value": "$75"
+  },
+  {
+   "ts": "2026-08-01T16:16",
+   "entity": "Willow Kit",
+   "attribute": "supplier",
+   "value": "Marlow & Co"
+  },
+  {
+   "ts": "2026-08-02T10:22",
+   "entity": "Lumen Candles",
+   "attribute": "target_customer",
+   "value": "remote workers"
+  },
+  {
+   "ts": "2026-08-02T10:44",
+   "entity": "Aurora Tee",
+   "attribute": "price",
+   "value": "$38"
+  },
+  {
+   "ts": "2026-08-02T10:49",
+   "entity": "Lumen Candles",
+   "attribute": "promo_code",
+   "value": "TREAT12"
+  },
+  {
+   "ts": "2026-08-02T15:31",
+   "entity": "Atlas Set",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-02T15:58",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$59"
+  },
+  {
+   "ts": "2026-08-02T16:38",
+   "entity": "Lumen Candles",
+   "attribute": "daily_ad_cap",
+   "value": "$750"
+  },
+  {
+   "ts": "2026-08-03T09:51",
+   "entity": "Lumen Candles",
+   "attribute": "hero_sku",
+   "value": "Willow Kit"
+  },
+  {
+   "ts": "2026-08-03T16:12",
+   "entity": "Lumen Candles",
+   "attribute": "return_window",
+   "value": "45 days"
+  },
+  {
+   "ts": "2026-08-04T13:41",
+   "entity": "Lumen Candles",
+   "attribute": "free_shipping_threshold",
+   "value": "$45"
+  },
+  {
+   "ts": "2026-08-12T14:27",
+   "entity": "Willow Kit",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-08-14T15:18",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-08-17T11:39",
+   "entity": "Lumen Candles",
+   "attribute": "target_customer",
+   "value": "new parents"
+  },
+  {
+   "ts": "2026-08-21T11:06",
+   "entity": "Lumen Candles",
+   "attribute": "daily_ad_cap",
+   "value": "$500"
+  },
+  {
+   "ts": "2026-08-25T11:57",
+   "entity": "Lumen Candles",
+   "attribute": "agency",
+   "value": "Copperhouse"
+  },
+  {
+   "ts": "2026-08-27T15:24",
+   "entity": "Lumen Candles",
+   "attribute": "target_customer",
+   "value": "outdoor runners"
+  },
+  {
+   "ts": "2026-08-31T12:27",
+   "entity": "Aurora Tee",
+   "attribute": "supplier",
+   "value": "Marlow & Co"
+  },
+  {
+   "ts": "2026-09-01T17:47",
+   "entity": "Lumen Candles",
+   "attribute": "free_shipping_threshold",
+   "value": "$50"
+  },
+  {
+   "ts": "2026-09-12T10:20",
+   "entity": "Atlas Set",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-09-17T15:20",
+   "entity": "Aurora Tee",
+   "attribute": "price",
+   "value": "$59"
+  },
+  {
+   "ts": "2026-09-18T10:56",
+   "entity": "Lumen Candles",
+   "attribute": "hero_sku",
+   "value": "Aurora Tee"
+  },
+  {
+   "ts": "2026-09-20T15:18",
+   "entity": "Lumen Candles",
+   "attribute": "hero_sku",
+   "value": "Atlas Set"
+  },
+  {
+   "ts": "2026-09-27T15:10",
+   "entity": "Willow Kit",
+   "attribute": "supplier",
+   "value": "Redwood Fulfilment"
+  },
+  {
+   "ts": "2026-09-27T15:12",
+   "entity": "Lumen Candles",
+   "attribute": "agency",
+   "value": "Fable & Funnel"
+  },
+  {
+   "ts": "2026-09-28T10:12",
+   "entity": "Lumen Candles",
+   "attribute": "return_window",
+   "value": "90 days"
+  },
+  {
+   "ts": "2026-10-02T15:13",
+   "entity": "Lumen Candles",
+   "attribute": "promo_code",
+   "value": "SAVE10"
+  },
+  {
+   "ts": "2026-10-08T12:26",
+   "entity": "Atlas Set",
+   "attribute": "price",
+   "value": "$18"
+  },
+  {
+   "ts": "2026-10-10T16:39",
+   "entity": "Lumen Candles",
+   "attribute": "daily_ad_cap",
+   "value": "$300"
+  },
+  {
+   "ts": "2026-10-21T13:38",
+   "entity": "Lumen Candles",
+   "attribute": "daily_ad_cap",
+   "value": "$250"
+  },
+  {
+   "ts": "2026-10-22T17:39",
+   "entity": "Aurora Tee",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-10-28T10:19",
+   "entity": "Aurora Tee",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  }
+ ],
+ "Juniper Skin": [
+  {
+   "ts": "2026-08-01T09:36",
+   "entity": "Willow Serum",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-08-01T11:24",
+   "entity": "River Tote",
+   "attribute": "supplier",
+   "value": "Coastline Goods"
+  },
+  {
+   "ts": "2026-08-01T13:24",
+   "entity": "Juniper Skin",
+   "attribute": "agency",
+   "value": "Brightline Media"
+  },
+  {
+   "ts": "2026-08-01T14:08",
+   "entity": "Juniper Skin",
+   "attribute": "daily_ad_cap",
+   "value": "$300"
+  },
+  {
+   "ts": "2026-08-02T10:20",
+   "entity": "River Tote",
+   "attribute": "price",
+   "value": "$18"
+  },
+  {
+   "ts": "2026-08-02T11:22",
+   "entity": "Juniper Skin",
+   "attribute": "hero_sku",
+   "value": "Willow Serum"
+  },
+  {
+   "ts": "2026-08-02T12:57",
+   "entity": "Juniper Skin",
+   "attribute": "return_window",
+   "value": "14 days"
+  },
+  {
+   "ts": "2026-08-02T14:05",
+   "entity": "Juniper Skin",
+   "attribute": "target_customer",
+   "value": "new parents"
+  },
+  {
+   "ts": "2026-08-03T09:43",
+   "entity": "Pebble Mug",
+   "attribute": "supplier",
+   "value": "Redwood Fulfilment"
+  },
+  {
+   "ts": "2026-08-03T13:45",
+   "entity": "Pebble Mug",
+   "attribute": "price",
+   "value": "$32"
+  },
+  {
+   "ts": "2026-08-03T14:01",
+   "entity": "Juniper Skin",
+   "attribute": "free_shipping_threshold",
+   "value": "$75"
+  },
+  {
+   "ts": "2026-08-03T15:50",
+   "entity": "Juniper Skin",
+   "attribute": "promo_code",
+   "value": "GLOW15"
+  },
+  {
+   "ts": "2026-08-03T17:38",
+   "entity": "Willow Serum",
+   "attribute": "price",
+   "value": "$42"
+  },
+  {
+   "ts": "2026-08-04T14:12",
+   "entity": "Juniper Skin",
+   "attribute": "agency",
+   "value": "Northstar Ads"
+  },
+  {
+   "ts": "2026-08-04T17:37",
+   "entity": "Willow Serum",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-07T10:32",
+   "entity": "Juniper Skin",
+   "attribute": "agency",
+   "value": "Fable & Funnel"
+  },
+  {
+   "ts": "2026-08-07T17:44",
+   "entity": "Pebble Mug",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-08-09T14:23",
+   "entity": "Willow Serum",
+   "attribute": "price",
+   "value": "$22"
+  },
+  {
+   "ts": "2026-08-12T13:55",
+   "entity": "Juniper Skin",
+   "attribute": "target_customer",
+   "value": "outdoor runners"
+  },
+  {
+   "ts": "2026-08-12T16:40",
+   "entity": "Juniper Skin",
+   "attribute": "daily_ad_cap",
+   "value": "$750"
+  },
+  {
+   "ts": "2026-08-14T16:18",
+   "entity": "Willow Serum",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-08-15T11:45",
+   "entity": "Juniper Skin",
+   "attribute": "agency",
+   "value": "Copperhouse"
+  },
+  {
+   "ts": "2026-08-15T14:37",
+   "entity": "Pebble Mug",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-08-20T09:07",
+   "entity": "Juniper Skin",
+   "attribute": "promo_code",
+   "value": "VIP15"
+  },
+  {
+   "ts": "2026-08-20T09:40",
+   "entity": "Juniper Skin",
+   "attribute": "hero_sku",
+   "value": "River Tote"
+  },
+  {
+   "ts": "2026-08-25T12:10",
+   "entity": "Willow Serum",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-09-13T17:31",
+   "entity": "Juniper Skin",
+   "attribute": "target_customer",
+   "value": "eco-conscious millennials"
+  },
+  {
+   "ts": "2026-09-19T12:06",
+   "entity": "River Tote",
+   "attribute": "price",
+   "value": "$29"
+  },
+  {
+   "ts": "2026-09-21T12:23",
+   "entity": "Pebble Mug",
+   "attribute": "supplier",
+   "value": "Coastline Goods"
+  },
+  {
+   "ts": "2026-09-29T11:36",
+   "entity": "Juniper Skin",
+   "attribute": "hero_sku",
+   "value": "Pebble Mug"
+  },
+  {
+   "ts": "2026-09-30T13:15",
+   "entity": "River Tote",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-10-01T12:45",
+   "entity": "Juniper Skin",
+   "attribute": "return_window",
+   "value": "60 days"
+  },
+  {
+   "ts": "2026-10-03T09:28",
+   "entity": "River Tote",
+   "attribute": "price",
+   "value": "$24"
+  },
+  {
+   "ts": "2026-10-09T17:05",
+   "entity": "Juniper Skin",
+   "attribute": "daily_ad_cap",
+   "value": "$300"
+  },
+  {
+   "ts": "2026-10-10T12:01",
+   "entity": "Pebble Mug",
+   "attribute": "price",
+   "value": "$34"
+  },
+  {
+   "ts": "2026-10-12T15:26",
+   "entity": "Juniper Skin",
+   "attribute": "return_window",
+   "value": "30 days"
+  },
+  {
+   "ts": "2026-10-15T09:35",
+   "entity": "River Tote",
+   "attribute": "price",
+   "value": "$64"
+  },
+  {
+   "ts": "2026-10-18T11:12",
+   "entity": "Juniper Skin",
+   "attribute": "free_shipping_threshold",
+   "value": "$45"
+  },
+  {
+   "ts": "2026-10-21T11:25",
+   "entity": "River Tote",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-10-26T09:48",
+   "entity": "Pebble Mug",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-10-26T11:53",
+   "entity": "River Tote",
+   "attribute": "supplier",
+   "value": "Marlow & Co"
+  },
+  {
+   "ts": "2026-10-26T14:57",
+   "entity": "Willow Serum",
+   "attribute": "price",
+   "value": "$18"
+  }
+ ],
+ "Mossy Pet": [
+  {
+   "ts": "2026-08-01T09:20",
+   "entity": "Ember Bundle",
+   "attribute": "price",
+   "value": "$42"
+  },
+  {
+   "ts": "2026-08-01T13:11",
+   "entity": "Cloud Tote",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-08-01T16:38",
+   "entity": "Comet Tee",
+   "attribute": "price",
+   "value": "$29"
+  },
+  {
+   "ts": "2026-08-01T16:42",
+   "entity": "Mossy Pet",
+   "attribute": "agency",
+   "value": "Fable & Funnel"
+  },
+  {
+   "ts": "2026-08-01T17:24",
+   "entity": "Mossy Pet",
+   "attribute": "return_window",
+   "value": "30 days"
+  },
+  {
+   "ts": "2026-08-01T17:47",
+   "entity": "Mossy Pet",
+   "attribute": "target_customer",
+   "value": "outdoor runners"
+  },
+  {
+   "ts": "2026-08-02T09:28",
+   "entity": "Mossy Pet",
+   "attribute": "free_shipping_threshold",
+   "value": "$80"
+  },
+  {
+   "ts": "2026-08-03T09:17",
+   "entity": "Mossy Pet",
+   "attribute": "hero_sku",
+   "value": "Cloud Tote"
+  },
+  {
+   "ts": "2026-08-03T12:16",
+   "entity": "Comet Tee",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-03T13:30",
+   "entity": "Mossy Pet",
+   "attribute": "promo_code",
+   "value": "GLOW25"
+  },
+  {
+   "ts": "2026-08-03T15:04",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-08-03T16:26",
+   "entity": "Cloud Tote",
+   "attribute": "price",
+   "value": "$54"
+  },
+  {
+   "ts": "2026-08-03T17:49",
+   "entity": "Mossy Pet",
+   "attribute": "daily_ad_cap",
+   "value": "$250"
+  },
+  {
+   "ts": "2026-08-09T12:28",
+   "entity": "Ember Bundle",
+   "attribute": "price",
+   "value": "$28"
+  },
+  {
+   "ts": "2026-08-13T15:01",
+   "entity": "Mossy Pet",
+   "attribute": "promo_code",
+   "value": "COZY12"
+  },
+  {
+   "ts": "2026-08-14T16:16",
+   "entity": "Mossy Pet",
+   "attribute": "agency",
+   "value": "Brightline Media"
+  },
+  {
+   "ts": "2026-09-04T11:24",
+   "entity": "Comet Tee",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-09-04T15:07",
+   "entity": "Ember Bundle",
+   "attribute": "price",
+   "value": "$34"
+  },
+  {
+   "ts": "2026-09-09T16:19",
+   "entity": "Mossy Pet",
+   "attribute": "agency",
+   "value": "Tandem Creative"
+  },
+  {
+   "ts": "2026-09-15T16:40",
+   "entity": "Mossy Pet",
+   "attribute": "daily_ad_cap",
+   "value": "$150"
+  },
+  {
+   "ts": "2026-09-21T12:22",
+   "entity": "Mossy Pet",
+   "attribute": "daily_ad_cap",
+   "value": "$250"
+  },
+  {
+   "ts": "2026-09-23T13:25",
+   "entity": "Mossy Pet",
+   "attribute": "return_window",
+   "value": "14 days"
+  },
+  {
+   "ts": "2026-09-27T15:29",
+   "entity": "Cloud Tote",
+   "attribute": "supplier",
+   "value": "Coastline Goods"
+  },
+  {
+   "ts": "2026-09-29T12:26",
+   "entity": "Comet Tee",
+   "attribute": "price",
+   "value": "$22"
+  },
+  {
+   "ts": "2026-09-29T15:34",
+   "entity": "Mossy Pet",
+   "attribute": "return_window",
+   "value": "60 days"
+  },
+  {
+   "ts": "2026-09-29T16:13",
+   "entity": "Comet Tee",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-10-05T09:57",
+   "entity": "Mossy Pet",
+   "attribute": "target_customer",
+   "value": "busy professionals"
+  },
+  {
+   "ts": "2026-10-06T10:33",
+   "entity": "Mossy Pet",
+   "attribute": "hero_sku",
+   "value": "Comet Tee"
+  },
+  {
+   "ts": "2026-10-06T13:30",
+   "entity": "Mossy Pet",
+   "attribute": "daily_ad_cap",
+   "value": "$1200"
+  },
+  {
+   "ts": "2026-10-09T17:58",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-10-16T16:36",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Orion Packaging"
+  },
+  {
+   "ts": "2026-10-17T10:22",
+   "entity": "Mossy Pet",
+   "attribute": "agency",
+   "value": "Brightline Media"
+  },
+  {
+   "ts": "2026-10-17T12:01",
+   "entity": "Mossy Pet",
+   "attribute": "target_customer",
+   "value": "first-time homeowners"
+  },
+  {
+   "ts": "2026-10-17T13:39",
+   "entity": "Mossy Pet",
+   "attribute": "free_shipping_threshold",
+   "value": "$60"
+  },
+  {
+   "ts": "2026-10-18T11:23",
+   "entity": "Ember Bundle",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-10-18T17:34",
+   "entity": "Cloud Tote",
+   "attribute": "price",
+   "value": "$49"
+  },
+  {
+   "ts": "2026-10-20T10:35",
+   "entity": "Mossy Pet",
+   "attribute": "free_shipping_threshold",
+   "value": "$40"
+  },
+  {
+   "ts": "2026-10-21T10:16",
+   "entity": "Mossy Pet",
+   "attribute": "target_customer",
+   "value": "busy professionals"
+  }
+ ],
+ "Tidal Swim": [
+  {
+   "ts": "2026-08-01T14:15",
+   "entity": "Tidal Swim",
+   "attribute": "free_shipping_threshold",
+   "value": "$55"
+  },
+  {
+   "ts": "2026-08-01T15:17",
+   "entity": "Tidal Swim",
+   "attribute": "agency",
+   "value": "Fable & Funnel"
+  },
+  {
+   "ts": "2026-08-01T17:20",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$28"
+  },
+  {
+   "ts": "2026-08-02T12:41",
+   "entity": "Velvet Blend",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-08-02T13:50",
+   "entity": "Tidal Swim",
+   "attribute": "daily_ad_cap",
+   "value": "$1200"
+  },
+  {
+   "ts": "2026-08-02T16:15",
+   "entity": "Tidal Swim",
+   "attribute": "promo_code",
+   "value": "TREAT30"
+  },
+  {
+   "ts": "2026-08-02T17:14",
+   "entity": "Velvet Blend",
+   "attribute": "price",
+   "value": "$22"
+  },
+  {
+   "ts": "2026-08-03T10:00",
+   "entity": "Sage Tote",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-08-03T10:05",
+   "entity": "Tidal Swim",
+   "attribute": "hero_sku",
+   "value": "Sage Tote"
+  },
+  {
+   "ts": "2026-08-03T12:40",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-08-03T12:51",
+   "entity": "Tidal Swim",
+   "attribute": "return_window",
+   "value": "30 days"
+  },
+  {
+   "ts": "2026-08-03T13:33",
+   "entity": "Sage Tote",
+   "attribute": "price",
+   "value": "$64"
+  },
+  {
+   "ts": "2026-08-03T17:39",
+   "entity": "Tidal Swim",
+   "attribute": "target_customer",
+   "value": "first-time homeowners"
+  },
+  {
+   "ts": "2026-08-04T09:20",
+   "entity": "Sage Tote",
+   "attribute": "price",
+   "value": "$59"
+  },
+  {
+   "ts": "2026-08-05T10:37",
+   "entity": "Tidal Swim",
+   "attribute": "free_shipping_threshold",
+   "value": "$65"
+  },
+  {
+   "ts": "2026-08-11T11:34",
+   "entity": "Sage Tote",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-08-13T12:51",
+   "entity": "Velvet Blend",
+   "attribute": "supplier",
+   "value": "Marlow & Co"
+  },
+  {
+   "ts": "2026-08-14T17:40",
+   "entity": "Tidal Swim",
+   "attribute": "hero_sku",
+   "value": "Velvet Blend"
+  },
+  {
+   "ts": "2026-08-18T12:17",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-08-21T12:08",
+   "entity": "Velvet Blend",
+   "attribute": "price",
+   "value": "$28"
+  },
+  {
+   "ts": "2026-08-22T13:23",
+   "entity": "Sage Tote",
+   "attribute": "price",
+   "value": "$42"
+  },
+  {
+   "ts": "2026-08-25T11:06",
+   "entity": "Tidal Swim",
+   "attribute": "target_customer",
+   "value": "remote workers"
+  },
+  {
+   "ts": "2026-08-29T13:24",
+   "entity": "Sage Tote",
+   "attribute": "supplier",
+   "value": "Redwood Fulfilment"
+  },
+  {
+   "ts": "2026-08-31T13:05",
+   "entity": "Velvet Blend",
+   "attribute": "supplier",
+   "value": "Pinecrest Labs"
+  },
+  {
+   "ts": "2026-09-07T09:16",
+   "entity": "Tidal Swim",
+   "attribute": "return_window",
+   "value": "21 days"
+  },
+  {
+   "ts": "2026-09-14T10:21",
+   "entity": "Tidal Swim",
+   "attribute": "daily_ad_cap",
+   "value": "$750"
+  },
+  {
+   "ts": "2026-09-15T11:18",
+   "entity": "Velvet Blend",
+   "attribute": "supplier",
+   "value": "Northfield Mills"
+  },
+  {
+   "ts": "2026-09-20T13:53",
+   "entity": "Tidal Swim",
+   "attribute": "return_window",
+   "value": "90 days"
+  },
+  {
+   "ts": "2026-09-23T11:32",
+   "entity": "Tidal Swim",
+   "attribute": "agency",
+   "value": "Hatch Growth"
+  },
+  {
+   "ts": "2026-09-24T16:58",
+   "entity": "Cedar Serum",
+   "attribute": "supplier",
+   "value": "Bluegate Manufacturing"
+  },
+  {
+   "ts": "2026-09-25T15:42",
+   "entity": "Tidal Swim",
+   "attribute": "return_window",
+   "value": "60 days"
+  },
+  {
+   "ts": "2026-09-26T10:45",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$22"
+  },
+  {
+   "ts": "2026-09-27T11:04",
+   "entity": "Sage Tote",
+   "attribute": "supplier",
+   "value": "Kestrel Supply"
+  },
+  {
+   "ts": "2026-09-28T11:10",
+   "entity": "Tidal Swim",
+   "attribute": "daily_ad_cap",
+   "value": "$500"
+  },
+  {
+   "ts": "2026-10-13T13:59",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$32"
+  },
+  {
+   "ts": "2026-10-14T16:44",
+   "entity": "Tidal Swim",
+   "attribute": "target_customer",
+   "value": "busy professionals"
+  },
+  {
+   "ts": "2026-10-17T10:20",
+   "entity": "Tidal Swim",
+   "attribute": "free_shipping_threshold",
+   "value": "$99"
+  },
+  {
+   "ts": "2026-10-20T11:35",
+   "entity": "Cedar Serum",
+   "attribute": "price",
+   "value": "$49"
+  },
+  {
+   "ts": "2026-10-27T17:44",
+   "entity": "Tidal Swim",
+   "attribute": "promo_code",
+   "value": "VIP30"
+  }
+ ]
+}

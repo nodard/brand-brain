@@ -1,0 +1,120 @@
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the number of days customers have to return an order right now?", "answer": "14 days", "as_of": null, "id": "q000"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the customer segment we are targeting right now?", "answer": "gift buyers", "as_of": null, "id": "q001"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the manufacturer of the Cedar Serum right now?", "answer": "Pinecrest Labs", "as_of": null, "id": "q002"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the minimum order value for free delivery right now?", "answer": "$35", "as_of": null, "id": "q003"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the discount code we should be advertising right now?", "answer": "FALL15", "as_of": null, "id": "q004"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the ad agency we work with right now?", "answer": "Fable & Funnel", "as_of": null, "id": "q005"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the retail price of the Sage Bundle right now?", "answer": "$29", "as_of": null, "id": "q006"}
+{"brand": "Ferro Coffee", "type": "current", "question": "What is the retail price of the Cedar Serum right now?", "answer": "$28", "as_of": null, "id": "q007"}
+{"brand": "Ferro Coffee", "type": "as_of", "question": "What was the retail price of the Harbor Mug at the end of 2026-10-02?", "answer": "$24", "as_of": "2026-10-02", "id": "q008"}
+{"brand": "Ferro Coffee", "type": "as_of", "question": "What was the retail price of the Cedar Serum at the end of 2026-08-19?", "answer": "$42", "as_of": "2026-08-19", "id": "q009"}
+{"brand": "Ferro Coffee", "type": "as_of", "question": "What was the product we are featuring as our hero product at the end of 2026-09-02?", "answer": "Cedar Serum", "as_of": "2026-09-02", "id": "q010"}
+{"brand": "Ferro Coffee", "type": "as_of", "question": "What was the retail price of the Sage Bundle at the end of 2026-10-20?", "answer": "$29", "as_of": "2026-10-20", "id": "q011"}
+{"brand": "Ferro Coffee", "type": "two_hop", "question": "What is the retail price of the product we are featuring as our hero product right now?", "answer": "$24", "as_of": null, "id": "q012"}
+{"brand": "Ferro Coffee", "type": "two_hop", "question": "What is the manufacturer of the product we are featuring as our hero product right now?", "answer": "Kestrel Supply", "as_of": null, "id": "q013"}
+{"brand": "Ferro Coffee", "type": "two_hop", "question": "At the end of 2026-09-19, what was the retail price of the product we are featuring as our hero product?", "answer": "$59", "as_of": "2026-09-19", "id": "q014"}
+{"brand": "Ferro Coffee", "type": "two_hop", "question": "At the end of 2026-08-13, what was the manufacturer of the product we are featuring as our hero product?", "answer": "Bluegate Manufacturing", "as_of": "2026-08-13", "id": "q015"}
+{"brand": "Ferro Coffee", "type": "abstain", "question": "What is our minimum order quantity for wholesale accounts?", "answer": null, "as_of": null, "id": "q016"}
+{"brand": "Ferro Coffee", "type": "abstain", "question": "What is our loyalty programme discount?", "answer": null, "as_of": null, "id": "q017"}
+{"brand": "Ferro Coffee", "type": "abstain", "question": "What is our monthly TikTok budget?", "answer": null, "as_of": null, "id": "q018"}
+{"brand": "Ferro Coffee", "type": "abstain", "question": "What is our standard fee we pay influencers per post?", "answer": null, "as_of": null, "id": "q019"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the retail price of the Ember Bundle right now?", "answer": "$29", "as_of": null, "id": "q020"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the minimum order value for free delivery right now?", "answer": "$65", "as_of": null, "id": "q021"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the ad agency we work with right now?", "answer": "Brightline Media", "as_of": null, "id": "q022"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the discount code we should be advertising right now?", "answer": "GLOW15", "as_of": null, "id": "q023"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the manufacturer of the River Blend right now?", "answer": "Orion Packaging", "as_of": null, "id": "q024"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the customer segment we are targeting right now?", "answer": "first-time homeowners", "as_of": null, "id": "q025"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the maximum daily paid-ads budget right now?", "answer": "$1000", "as_of": null, "id": "q026"}
+{"brand": "Halcyon Socks", "type": "current", "question": "What is the retail price of the River Blend right now?", "answer": "$59", "as_of": null, "id": "q027"}
+{"brand": "Halcyon Socks", "type": "as_of", "question": "What was the manufacturer of the Ember Bundle at the end of 2026-08-19?", "answer": "Kestrel Supply", "as_of": "2026-08-19", "id": "q028"}
+{"brand": "Halcyon Socks", "type": "as_of", "question": "What was the manufacturer of the River Blend at the end of 2026-08-08?", "answer": "Coastline Goods", "as_of": "2026-08-08", "id": "q029"}
+{"brand": "Halcyon Socks", "type": "as_of", "question": "What was the product we are featuring as our hero product at the end of 2026-08-26?", "answer": "River Blend", "as_of": "2026-08-26", "id": "q030"}
+{"brand": "Halcyon Socks", "type": "as_of", "question": "What was the manufacturer of the Atlas Set at the end of 2026-08-29?", "answer": "Pinecrest Labs", "as_of": "2026-08-29", "id": "q031"}
+{"brand": "Halcyon Socks", "type": "two_hop", "question": "What is the retail price of the product we are featuring as our hero product right now?", "answer": "$54", "as_of": null, "id": "q032"}
+{"brand": "Halcyon Socks", "type": "two_hop", "question": "What is the manufacturer of the product we are featuring as our hero product right now?", "answer": "Orion Packaging", "as_of": null, "id": "q033"}
+{"brand": "Halcyon Socks", "type": "two_hop", "question": "At the end of 2026-10-23, what was the retail price of the product we are featuring as our hero product?", "answer": "$54", "as_of": "2026-10-23", "id": "q034"}
+{"brand": "Halcyon Socks", "type": "two_hop", "question": "At the end of 2026-10-17, what was the manufacturer of the product we are featuring as our hero product?", "answer": "Orion Packaging", "as_of": "2026-10-17", "id": "q035"}
+{"brand": "Halcyon Socks", "type": "abstain", "question": "What is our minimum order quantity for wholesale accounts?", "answer": null, "as_of": null, "id": "q036"}
+{"brand": "Halcyon Socks", "type": "abstain", "question": "What is our loyalty programme discount?", "answer": null, "as_of": null, "id": "q037"}
+{"brand": "Halcyon Socks", "type": "abstain", "question": "What is our monthly TikTok budget?", "answer": null, "as_of": null, "id": "q038"}
+{"brand": "Halcyon Socks", "type": "abstain", "question": "What is our standard fee we pay influencers per post?", "answer": null, "as_of": null, "id": "q039"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the minimum order value for free delivery right now?", "answer": "$50", "as_of": null, "id": "q040"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the customer segment we are targeting right now?", "answer": "outdoor runners", "as_of": null, "id": "q041"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the manufacturer of the Atlas Set right now?", "answer": "Bluegate Manufacturing", "as_of": null, "id": "q042"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the manufacturer of the Aurora Tee right now?", "answer": "Kestrel Supply", "as_of": null, "id": "q043"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the maximum daily paid-ads budget right now?", "answer": "$250", "as_of": null, "id": "q044"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the retail price of the Aurora Tee right now?", "answer": "$59", "as_of": null, "id": "q045"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the retail price of the Willow Kit right now?", "answer": "$54", "as_of": null, "id": "q046"}
+{"brand": "Lumen Candles", "type": "current", "question": "What is the manufacturer of the Willow Kit right now?", "answer": "Redwood Fulfilment", "as_of": null, "id": "q047"}
+{"brand": "Lumen Candles", "type": "as_of", "question": "What was the number of days customers have to return an order at the end of 2026-08-17?", "answer": "45 days", "as_of": "2026-08-17", "id": "q048"}
+{"brand": "Lumen Candles", "type": "as_of", "question": "What was the product we are featuring as our hero product at the end of 2026-09-17?", "answer": "Willow Kit", "as_of": "2026-09-17", "id": "q049"}
+{"brand": "Lumen Candles", "type": "as_of", "question": "What was the ad agency we work with at the end of 2026-10-16?", "answer": "Fable & Funnel", "as_of": "2026-10-16", "id": "q050"}
+{"brand": "Lumen Candles", "type": "as_of", "question": "What was the manufacturer of the Atlas Set at the end of 2026-08-05?", "answer": "Pinecrest Labs", "as_of": "2026-08-05", "id": "q051"}
+{"brand": "Lumen Candles", "type": "two_hop", "question": "What is the retail price of the product we are featuring as our hero product right now?", "answer": "$18", "as_of": null, "id": "q052"}
+{"brand": "Lumen Candles", "type": "two_hop", "question": "What is the manufacturer of the product we are featuring as our hero product right now?", "answer": "Bluegate Manufacturing", "as_of": null, "id": "q053"}
+{"brand": "Lumen Candles", "type": "two_hop", "question": "At the end of 2026-09-01, what was the retail price of the product we are featuring as our hero product?", "answer": "$54", "as_of": "2026-09-01", "id": "q054"}
+{"brand": "Lumen Candles", "type": "two_hop", "question": "At the end of 2026-08-30, what was the manufacturer of the product we are featuring as our hero product?", "answer": "Marlow & Co", "as_of": "2026-08-30", "id": "q055"}
+{"brand": "Lumen Candles", "type": "abstain", "question": "What is our minimum order quantity for wholesale accounts?", "answer": null, "as_of": null, "id": "q056"}
+{"brand": "Lumen Candles", "type": "abstain", "question": "What is our loyalty programme discount?", "answer": null, "as_of": null, "id": "q057"}
+{"brand": "Lumen Candles", "type": "abstain", "question": "What is our monthly TikTok budget?", "answer": null, "as_of": null, "id": "q058"}
+{"brand": "Lumen Candles", "type": "abstain", "question": "What is our standard fee we pay influencers per post?", "answer": null, "as_of": null, "id": "q059"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the retail price of the Willow Serum right now?", "answer": "$18", "as_of": null, "id": "q060"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the product we are featuring as our hero product right now?", "answer": "Pebble Mug", "as_of": null, "id": "q061"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the retail price of the River Tote right now?", "answer": "$64", "as_of": null, "id": "q062"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the manufacturer of the Pebble Mug right now?", "answer": "Bluegate Manufacturing", "as_of": null, "id": "q063"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the number of days customers have to return an order right now?", "answer": "30 days", "as_of": null, "id": "q064"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the manufacturer of the River Tote right now?", "answer": "Marlow & Co", "as_of": null, "id": "q065"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the customer segment we are targeting right now?", "answer": "eco-conscious millennials", "as_of": null, "id": "q066"}
+{"brand": "Juniper Skin", "type": "current", "question": "What is the ad agency we work with right now?", "answer": "Copperhouse", "as_of": null, "id": "q067"}
+{"brand": "Juniper Skin", "type": "as_of", "question": "What was the number of days customers have to return an order at the end of 2026-09-02?", "answer": "14 days", "as_of": "2026-09-02", "id": "q068"}
+{"brand": "Juniper Skin", "type": "as_of", "question": "What was the minimum order value for free delivery at the end of 2026-08-23?", "answer": "$75", "as_of": "2026-08-23", "id": "q069"}
+{"brand": "Juniper Skin", "type": "as_of", "question": "What was the retail price of the Pebble Mug at the end of 2026-09-03?", "answer": "$54", "as_of": "2026-09-03", "id": "q070"}
+{"brand": "Juniper Skin", "type": "as_of", "question": "What was the discount code we should be advertising at the end of 2026-09-06?", "answer": "VIP15", "as_of": "2026-09-06", "id": "q071"}
+{"brand": "Juniper Skin", "type": "two_hop", "question": "What is the retail price of the product we are featuring as our hero product right now?", "answer": "$34", "as_of": null, "id": "q072"}
+{"brand": "Juniper Skin", "type": "two_hop", "question": "What is the manufacturer of the product we are featuring as our hero product right now?", "answer": "Bluegate Manufacturing", "as_of": null, "id": "q073"}
+{"brand": "Juniper Skin", "type": "two_hop", "question": "At the end of 2026-10-27, what was the retail price of the product we are featuring as our hero product?", "answer": "$34", "as_of": "2026-10-27", "id": "q074"}
+{"brand": "Juniper Skin", "type": "two_hop", "question": "At the end of 2026-09-04, what was the manufacturer of the product we are featuring as our hero product?", "answer": "Coastline Goods", "as_of": "2026-09-04", "id": "q075"}
+{"brand": "Juniper Skin", "type": "abstain", "question": "What is our minimum order quantity for wholesale accounts?", "answer": null, "as_of": null, "id": "q076"}
+{"brand": "Juniper Skin", "type": "abstain", "question": "What is our loyalty programme discount?", "answer": null, "as_of": null, "id": "q077"}
+{"brand": "Juniper Skin", "type": "abstain", "question": "What is our monthly TikTok budget?", "answer": null, "as_of": null, "id": "q078"}
+{"brand": "Juniper Skin", "type": "abstain", "question": "What is our standard fee we pay influencers per post?", "answer": null, "as_of": null, "id": "q079"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the customer segment we are targeting right now?", "answer": "busy professionals", "as_of": null, "id": "q080"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the discount code we should be advertising right now?", "answer": "COZY12", "as_of": null, "id": "q081"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the product we are featuring as our hero product right now?", "answer": "Comet Tee", "as_of": null, "id": "q082"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the retail price of the Comet Tee right now?", "answer": "$22", "as_of": null, "id": "q083"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the manufacturer of the Cloud Tote right now?", "answer": "Coastline Goods", "as_of": null, "id": "q084"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the minimum order value for free delivery right now?", "answer": "$40", "as_of": null, "id": "q085"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the retail price of the Cloud Tote right now?", "answer": "$49", "as_of": null, "id": "q086"}
+{"brand": "Mossy Pet", "type": "current", "question": "What is the manufacturer of the Comet Tee right now?", "answer": "Kestrel Supply", "as_of": null, "id": "q087"}
+{"brand": "Mossy Pet", "type": "as_of", "question": "What was the retail price of the Cloud Tote at the end of 2026-09-11?", "answer": "$54", "as_of": "2026-09-11", "id": "q088"}
+{"brand": "Mossy Pet", "type": "as_of", "question": "What was the minimum order value for free delivery at the end of 2026-10-18?", "answer": "$60", "as_of": "2026-10-18", "id": "q089"}
+{"brand": "Mossy Pet", "type": "as_of", "question": "What was the retail price of the Ember Bundle at the end of 2026-10-13?", "answer": "$34", "as_of": "2026-10-13", "id": "q090"}
+{"brand": "Mossy Pet", "type": "as_of", "question": "What was the maximum daily paid-ads budget at the end of 2026-08-18?", "answer": "$250", "as_of": "2026-08-18", "id": "q091"}
+{"brand": "Mossy Pet", "type": "two_hop", "question": "What is the retail price of the product we are featuring as our hero product right now?", "answer": "$22", "as_of": null, "id": "q092"}
+{"brand": "Mossy Pet", "type": "two_hop", "question": "What is the manufacturer of the product we are featuring as our hero product right now?", "answer": "Kestrel Supply", "as_of": null, "id": "q093"}
+{"brand": "Mossy Pet", "type": "two_hop", "question": "At the end of 2026-10-01, what was the retail price of the product we are featuring as our hero product?", "answer": "$54", "as_of": "2026-10-01", "id": "q094"}
+{"brand": "Mossy Pet", "type": "two_hop", "question": "At the end of 2026-08-18, what was the manufacturer of the product we are featuring as our hero product?", "answer": "Orion Packaging", "as_of": "2026-08-18", "id": "q095"}
+{"brand": "Mossy Pet", "type": "abstain", "question": "What is our minimum order quantity for wholesale accounts?", "answer": null, "as_of": null, "id": "q096"}
+{"brand": "Mossy Pet", "type": "abstain", "question": "What is our loyalty programme discount?", "answer": null, "as_of": null, "id": "q097"}
+{"brand": "Mossy Pet", "type": "abstain", "question": "What is our monthly TikTok budget?", "answer": null, "as_of": null, "id": "q098"}
+{"brand": "Mossy Pet", "type": "abstain", "question": "What is our standard fee we pay influencers per post?", "answer": null, "as_of": null, "id": "q099"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the manufacturer of the Cedar Serum right now?", "answer": "Bluegate Manufacturing", "as_of": null, "id": "q100"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the ad agency we work with right now?", "answer": "Hatch Growth", "as_of": null, "id": "q101"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the discount code we should be advertising right now?", "answer": "VIP30", "as_of": null, "id": "q102"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the retail price of the Sage Tote right now?", "answer": "$42", "as_of": null, "id": "q103"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the number of days customers have to return an order right now?", "answer": "60 days", "as_of": null, "id": "q104"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the manufacturer of the Sage Tote right now?", "answer": "Kestrel Supply", "as_of": null, "id": "q105"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the customer segment we are targeting right now?", "answer": "busy professionals", "as_of": null, "id": "q106"}
+{"brand": "Tidal Swim", "type": "current", "question": "What is the maximum daily paid-ads budget right now?", "answer": "$500", "as_of": null, "id": "q107"}
+{"brand": "Tidal Swim", "type": "as_of", "question": "What was the minimum order value for free delivery at the end of 2026-08-31?", "answer": "$65", "as_of": "2026-08-31", "id": "q108"}
+{"brand": "Tidal Swim", "type": "as_of", "question": "What was the maximum daily paid-ads budget at the end of 2026-09-06?", "answer": "$1200", "as_of": "2026-09-06", "id": "q109"}
+{"brand": "Tidal Swim", "type": "as_of", "question": "What was the manufacturer of the Velvet Blend at the end of 2026-08-05?", "answer": "Bluegate Manufacturing", "as_of": "2026-08-05", "id": "q110"}
+{"brand": "Tidal Swim", "type": "as_of", "question": "What was the retail price of the Sage Tote at the end of 2026-10-16?", "answer": "$42", "as_of": "2026-10-16", "id": "q111"}
+{"brand": "Tidal Swim", "type": "two_hop", "question": "What is the retail price of the product we are featuring as our hero product right now?", "answer": "$28", "as_of": null, "id": "q112"}
+{"brand": "Tidal Swim", "type": "two_hop", "question": "What is the manufacturer of the product we are featuring as our hero product right now?", "answer": "Northfield Mills", "as_of": null, "id": "q113"}
+{"brand": "Tidal Swim", "type": "two_hop", "question": "At the end of 2026-09-03, what was the retail price of the product we are featuring as our hero product?", "answer": "$28", "as_of": "2026-09-03", "id": "q114"}
+{"brand": "Tidal Swim", "type": "two_hop", "question": "At the end of 2026-09-20, what was the manufacturer of the product we are featuring as our hero product?", "answer": "Northfield Mills", "as_of": "2026-09-20", "id": "q115"}
+{"brand": "Tidal Swim", "type": "abstain", "question": "What is our minimum order quantity for wholesale accounts?", "answer": null, "as_of": null, "id": "q116"}
+{"brand": "Tidal Swim", "type": "abstain", "question": "What is our loyalty programme discount?", "answer": null, "as_of": null, "id": "q117"}
+{"brand": "Tidal Swim", "type": "abstain", "question": "What is our monthly TikTok budget?", "answer": null, "as_of": null, "id": "q118"}
+{"brand": "Tidal Swim", "type": "abstain", "question": "What is our standard fee we pay influencers per post?", "answer": null, "as_of": null, "id": "q119"}
