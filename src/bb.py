@@ -174,13 +174,16 @@ async def ingest_brand(con, brand, data, sem, usage, batch=20):
         async with sem:
             text, u = await fw_chat(WRITER, system, user, max_tokens=1500)
         usage.append(u)
-        return (parse_json(text) or {}).get("facts", [])
+        d = parse_json(text)
+        return d.get("facts", []) if isinstance(d, dict) else []
 
     results = await asyncio.gather(*[run(b) for b in batches])
     facts = []
     for fs in results:
-        for f in fs or []:
-            m = by_id.get(f.get("msg_id"))
+        for f in (fs if isinstance(fs, list) else []):
+            if not isinstance(f, dict):
+                continue
+            m = by_id.get(str(f.get("msg_id")))
             if not m or f.get("attribute") not in ALL_ATTRS:
                 continue
             ent = f.get("entity") or brand
@@ -274,14 +277,14 @@ async def run_eval(setname, system, limit=None, conc=6):
     if out.exists():
         done = {json.loads(l)["id"] for l in open(out)}
     qs = [q for q in qs if q["id"] not in done]
-    con = open_db(setname) if system == "D" else None
+    con = open_db(setname + ("_v2" if system == "D2" else "")) if system in ("D", "D2") else None
     sem = asyncio.Semaphore(conc)
     f = open(out, "a")
 
     async def one(q):
         brand = q["brand"]
         try:
-            if system == "D":
+            if system in ("D", "D2"):
                 pred, u, trace = await answer_D(con, brand, data[brand]["skus"], q, sem)
             elif system == "C":
                 async with sem:

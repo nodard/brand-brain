@@ -1,0 +1,90 @@
+{
+ "A": {
+  "label": "A: Claude Opus 5.5, full log",
+  "n": 120,
+  "acc": 1.0,
+  "ci95": [
+   1.0,
+   1.0
+  ],
+  "by_type": {
+   "abstain": "24/24",
+   "as_of": "24/24",
+   "current": "48/48",
+   "two_hop": "24/24"
+  },
+  "false_abstain": 0,
+  "hallucinated_on_abstain": 0,
+  "query_cost_usd": 8.889675,
+  "ingest_cost_usd": 0,
+  "cost_per_correct": 0.074080625,
+  "p50_sec": 7.5471144914627075,
+  "prompt_tokens_per_q": 14492.125
+ },
+ "C": {
+  "label": "C: DeepSeek V4.1 Flash, full log",
+  "n": 120,
+  "acc": 0.8333333333333334,
+  "ci95": [
+   0.7583333333333333,
+   0.8916666666666667
+  ],
+  "by_type": {
+   "abstain": "24/24",
+   "as_of": "18/24",
+   "current": "48/48",
+   "two_hop": "10/24"
+  },
+  "false_abstain": 2,
+  "hallucinated_on_abstain": 0,
+  "query_cost_usd": 0.5238033,
+  "ingest_cost_usd": 0,
+  "cost_per_correct": 0.005238033,
+  "p50_sec": 0.7375540733337402,
+  "prompt_tokens_per_q": 14492.125
+ },
+ "D": {
+  "label": "D v1: Brand Brain (frozen)",
+  "n": 120,
+  "acc": 0.26666666666666666,
+  "ci95": [
+   0.19166666666666668,
+   0.35
+  ],
+  "by_type": {
+   "abstain": "1/24",
+   "as_of": "13/24",
+   "current": "14/48",
+   "two_hop": "4/24"
+  },
+  "false_abstain": 7,
+  "hallucinated_on_abstain": 23,
+  "query_cost_usd": 0.016818899999999998,
+  "ingest_cost_usd": 0.013094850000000002,
+  "cost_per_correct": 0.0009348046875,
+  "p50_sec": 0.6136620044708252,
+  "prompt_tokens_per_q": 339.125
+ },
+ "D2": {
+  "label": "D v2: Brand Brain + verify pass",
+  "n": 120,
+  "acc": 0.7916666666666666,
+  "ci95": [
+   0.7166666666666667,
+   0.8666666666666667
+  ],
+  "by_type": {
+   "abstain": "23/24",
+   "as_of": "18/24",
+   "current": "40/48",
+   "two_hop": "14/24"
+  },
+  "false_abstain": 8,
+  "hallucinated_on_abstain": 1,
+  "query_cost_usd": 0.016818899999999998,
+  "ingest_cost_usd": 0.02759085,
+  "cost_per_correct": 0.0004674710526315789,
+  "p50_sec": 0.6644150018692017,
+  "prompt_tokens_per_q": 339.125
+ }
+}
