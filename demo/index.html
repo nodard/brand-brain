@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brand Brain</title>
+<style>
+:root{--bg:#0b0e14;--panel:#121722;--line:#232a3a;--text:#e6e9f0;--muted:#8a93a6;--green:#5be39a;--amber:#f5c451;--red:#ff7b7b;--blue:#7cb7ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:18px/1.5 -apple-system,"Segoe UI",Inter,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:40px 24px}
+h1{font-size:44px;margin:0 0 6px}h2{font-size:30px;margin:0 0 14px;color:var(--green)}
+.sub{color:var(--muted);font-size:22px;margin-bottom:28px}
+section{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px 30px;margin-bottom:22px}
+.num{color:var(--muted);font-size:14px;letter-spacing:.12em;text-transform:uppercase}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{background:#0e1219;border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.card h3{margin:0 0 8px;font-size:17px;color:var(--muted);font-weight:600}
+pre{margin:0;font:16px/1.55 "JetBrains Mono",Menlo,monospace;white-space:pre-wrap;color:#d7dce6}
+.k{color:var(--muted)}.g{color:var(--green)}.a{color:var(--amber)}.r{color:var(--red)}.b{color:var(--blue)}
+.flow{display:flex;gap:12px;align-items:stretch;flex-wrap:wrap;margin-top:8px}
+.step{flex:1;min-width:190px;background:#0e1219;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.step b{display:block;font-size:16px;margin-bottom:4px}.step span{color:var(--muted);font-size:15px}
+table{width:100%;border-collapse:collapse;font-size:18px;margin-top:6px}th,td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:left}
+th{color:var(--muted);font-weight:600;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+tr.us td{background:#102118}.big{font-size:40px;font-weight:700;line-height:1.1}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+.stat{background:#0e1219;border:1px solid var(--line);border-radius:10px;padding:14px 16px}.stat small{display:block;color:var(--muted);font-size:14px}
+ul{margin:8px 0 0 18px;padding:0}li{margin:4px 0}
+footer{color:var(--muted);font-size:15px;text-align:center;margin-top:10px}
+</style></head><body><main>
+<h1>Brand Brain</h1>
+<div class="sub">A dated fact ledger for every AI tool a brand runs. Open models on Fireworks.</div>
+
+<section><div class="num">1 · The problem</div><h2>Ten AI tools, one set of facts, all going stale</h2>
+<div class="row">
+<div class="card"><h3>What a brand's tools need, right now</h3><ul><li>Live promo code</li><li>Free-shipping threshold</li><li>Hero product and its price and supplier</li><li>Target customer, ad cap, return window</li></ul></div>
+<div class="card"><h3>What happens today</h3><ul><li>Each tool re-reads the whole Slack history, every question</li><li>Or it quotes a value that was replaced three weeks ago</li><li>Nobody can say when a fact took effect or what it replaced</li></ul></div>
+</div></section>
+
+<section><div class="num">2 · Tech stack</div><h2>Extract once, verify once, answer from SQL</h2>
+<div class="flow">
+<div class="step"><b>1 · Extract</b><span>NVIDIA Nemotron Lightning 3.5 on Fireworks reads the ops log in batches and pulls <em>(entity, attribute, value)</em>. Dates come from the message timestamp, never the model.</span></div>
+<div class="step"><b>2 · Verify</b><span>DeepSeek V4.1 Flash on Fireworks checks each source message: a decision, or a proposal, question, or someone recalling an old value?</span></div>
+<div class="step"><b>3 · Store</b><span>SQLite with validity intervals. A new value closes the old row. <em>current</em>, <em>as_of(date)</em>, full history, source id.</span></div>
+<div class="step"><b>4 · Answer</b><span>One small routing call, then SQL. Two-hop questions resolve the hero product in code. ~340 prompt tokens instead of 14,500.</span></div>
+</div>
+<div class="card" style="margin-top:18px"><h3>uv run src/ask.py --brand "Ferro Coffee" "What is the discount code we should be advertising right now?"</h3>
+<pre><span class="k">lookup  </span> Ferro Coffee / promo_code
+<span class="k">answer  </span> <span class="g">FALL30</span>
+<span class="k">since   </span> 2026-10-17 17:36   <span class="k">source fer-0439:</span> "Updating the promo code -> FALL30. This replaces the old one."
+<span class="k">replaced</span> <span class="a">VIP15</span>  (held 2026-09-04 to 2026-10-17)
+<span class="k">cost    </span> $0.000136, 334 prompt tokens, 1.2s</pre></div>
+</section>
+
+<section><div class="num">3 · Benchmark</div><h2>120 held-out questions, 6 brands, 90 days of noisy logs</h2>
+<table><tr><th>System</th><th>Accuracy (95% CI)</th><th>current</th><th>as-of date</th><th>two-hop</th><th>abstain</th><th>$ per correct</th><th>tokens / q</th><th>p50</th></tr>
+<tr><td><b>Claude Opus 5.5</b>, full log (baseline)</td><td class="big" style="font-size:26px">100%</td><td>48/48</td><td>24/24</td><td>24/24</td><td>24/24</td><td class="r">$0.074</td><td>14,492</td><td>7.5s</td></tr>
+<tr><td><b>DeepSeek V4.1 Flash</b>, full log</td><td style="font-size:26px">83% (76-89)</td><td>48/48</td><td>18/24</td><td class="r">10/24</td><td>24/24</td><td>$0.0052</td><td>14,492</td><td>0.7s</td></tr>
+<tr><td>Brand Brain v1 (frozen, no verify)</td><td style="font-size:26px">27% (19-35)</td><td>14/48</td><td>13/24</td><td>4/24</td><td>1/24</td><td>$0.0009</td><td>339</td><td>0.6s</td></tr>
+<tr class="us"><td><b>Brand Brain v2</b> + verify pass</td><td class="big g" style="font-size:26px">79% (72-87)</td><td>40/48</td><td>18/24</td><td class="g">14/24</td><td>23/24</td><td class="g">$0.00047</td><td class="g">339</td><td class="g">0.7s</td></tr></table>
+<div class="stats">
+<div class="stat"><div class="big g">1/160</div><small>cost per correct answer vs Opus, ingest included</small></div>
+<div class="stat"><div class="big g">43×</div><small>fewer prompt tokens per question</small></div>
+<div class="stat"><div class="big g">10×</div><small>lower latency (p50)</small></div>
+<div class="stat"><div class="big a">27 → 79</div><small>the verify pass: decision vs chatter is the whole job</small></div>
+</div>
+<p style="color:var(--muted);margin:16px 0 0;font-size:16px">Same prompt and grader for every system. Test seed = code-freeze commit hash. We do not beat Opus on accuracy; v2 was fixed after inspecting test failures, stated in the README. github.com/nodard/brand-brain</p>
+</section>
+<footer>Fireworks Deploy · 2 Nov 2026 · Nodar Danelia and Alan Piovesana</footer>
+</main></body></html>
