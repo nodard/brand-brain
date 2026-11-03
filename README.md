@@ -51,15 +51,29 @@ All model calls run at temperature 0 with reasoning off, on Fireworks serverless
 - **Small sample:** n per type is 24-48, and provider nondeterminism can shift results by a few points on rerun.
 - **Not done in time:** a hand-written out-of-distribution slice, a dev-set ablation of the verify pass, and unit tests.
 
+## Try it (30 seconds)
+```bash
+cp .env.example .env            # put your Fireworks key in it
+uv run src/ask.py --set test --brand "Ferro Coffee" "What is the discount code we should be advertising right now?"
+```
+Output shows the lookup, the answer, when it took effect, the source message, and what it replaced:
+```
+lookup   Ferro Coffee / promo_code
+answer   FALL30
+since    2026-10-17T17:36  source fer-0439: "Updating the promo code -> FALL30. This replaces the old one."
+replaced VIP15  (held 2026-09-04T13:03 to 2026-10-17T17:36)
+cost     $0.000136, 334 prompt tokens, 1.2s
+```
+Two-hop questions resolve the hero product first ("Who makes the product we are featuring as our hero product?"). `--json` prints the full trace. The committed `results/test_v2.db` is the store built during the run, so this works without re-ingesting.
+
 ## Reproduce
 ```bash
-uv venv .venv && uv pip install --python .venv/bin/python httpx
-echo "FIREWORKS_API_KEY=fw_..." > .env
-python bench/generate.py --seed c3c60bc5 --name test   # regenerates the committed test set
-.venv/bin/python src/bb.py ingest --set test            # Nemotron writer -> results/test.db
-.venv/bin/python src/verify.py --set test               # v2 verify pass -> results/test_v2.db
-.venv/bin/python src/bb.py eval --set test --system C   # D, D2, C on Fireworks; A needs the claude CLI
-.venv/bin/python src/report.py
+cp .env.example .env                                   # Fireworks key; model ids can be overridden there
+uv run bench/generate.py --seed c3c60bc5 --name test   # regenerates the committed test set
+uv run src/bb.py ingest --set test                     # Nemotron writer -> results/test.db
+uv run src/verify.py --set test                        # v2 verify pass -> results/test_v2.db
+uv run src/bb.py eval --set test --system D2           # also C, D; A needs the claude CLI on PATH
+uv run src/report.py
 ```
 Models are Fireworks `accounts/fireworks/models/deepseek-v4p1-flash` (reader, verify, and system C) and `accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b` (writer). The frontier model is `claude-opus-5-5`. Per-question outputs, traces and token usage are in `results/test_*.jsonl`.
 

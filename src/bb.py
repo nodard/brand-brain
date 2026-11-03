@@ -23,9 +23,9 @@ for line in (ROOT / ".env").read_text().splitlines() if (ROOT / ".env").exists()
         os.environ.setdefault(k, v)
 
 FW_URL = "https://api.fireworks.ai/inference/v1/chat/completions"
-READER = "accounts/fireworks/models/deepseek-v4p1-flash"
-WRITER = "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"
-FRONTIER = "claude-opus-5-5"
+READER = os.environ.get("BB_READER", "accounts/fireworks/models/deepseek-v4p1-flash")
+WRITER = os.environ.get("BB_WRITER", "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b")
+FRONTIER = os.environ.get("BB_FRONTIER", "claude-opus-5-5")
 # $ per 1M tokens (input, output), Fireworks list prices on 2 Nov 2026
 PRICE = {READER: (0.30, 1.20), WRITER: (0.05, 0.20)}
 

@@ -1,4 +1,4 @@
 .env
 __pycache__/
-*.db
+results/*_ingest.db
 .venv/

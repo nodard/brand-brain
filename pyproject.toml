@@ -1,0 +1,6 @@
+[project]
+name = "brand-brain"
+version = "0.1.0"
+description = "Temporal company memory on Fireworks open models"
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.27"]
