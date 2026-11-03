@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Script</title>
+<style>
+body{margin:0;background:#0b0e14;color:#e6e9f0;font:28px/1.6 -apple-system,"Segoe UI",Inter,sans-serif}
+main{max-width:900px;margin:0 auto;padding:40px 28px}
+h2{color:#5be39a;font-size:24px;margin:40px 0 10px;letter-spacing:.08em;text-transform:uppercase}
+p{margin:0 0 18px}.do{color:#f5c451;font-size:20px;font-style:italic}
+</style></head><body><main>
+
+<h2>1. The problem</h2>
+<p class="do">Show the top of the demo page.</p>
+<p>A brand today runs five to ten AI tools. Ad copy, support, email, product pages.</p>
+<p>They all need the same facts. The live promo code. The shipping threshold. The hero product.</p>
+<p>Right now each tool either re-reads the whole Slack history every time, or it quotes a value that was replaced weeks ago.</p>
+
+<h2>2. Tech stack</h2>
+<p class="do">Scroll to the four steps, then to the terminal output.</p>
+<p>Brand Brain is a fact ledger.</p>
+<p>NVIDIA Nemotron on Fireworks reads the log and pulls out decisions.</p>
+<p>DeepSeek on Fireworks checks each one. Is this a real decision, or a proposal, a question, or someone remembering an old value?</p>
+<p>Verified facts go into a SQLite store with a start date and an end date.</p>
+<p>A question becomes one small model call and a SQL lookup.</p>
+<p>Fireworks serverless made this possible. Both models run in under a second for a fraction of a cent, so we can afford to verify every single message.</p>
+<p>Here is the output. The promo code is FALL30. It took effect on 17 October. Here is the source message. It replaced VIP15.</p>
+
+<h2>3. Benchmark</h2>
+<p class="do">Scroll to the table.</p>
+<p>The baseline is Claude Opus 5.5 reading the full log, with the same prompt.</p>
+<p>120 held-out questions. The test seed comes from our code-freeze commit, so we could not tune on it.</p>
+<p>Opus scores 100 percent.</p>
+<p>DeepSeek reading the full log scores 83.</p>
+<p>Brand Brain on open models scores 79.</p>
+<p>At one 160th of the cost per correct answer. 43 times fewer tokens. 10 times faster.</p>
+<p>And it beats DeepSeek with the full log on two-hop questions, 14 to 10, because the second hop runs in code.</p>
+<p>Our first version scored 27 percent. The verify step took it to 79. That one change is the whole lesson: memory is deciding what counts as a fact.</p>
+<p>We do not beat Opus on accuracy. We say so in the README. Everything reproduces with one command.</p>
+
+</main></body></html>
