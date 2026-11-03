@@ -78,6 +78,6 @@ uv run src/report.py
 Models are Fireworks `accounts/fireworks/models/deepseek-v4p1-flash` (reader, verify, and system C) and `accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b` (writer). The frontier model is `claude-opus-5-5`. Per-question outputs, traces and token usage are in `results/test_*.jsonl`.
 
 ## Disclosure
-- **Prior work:** a written proposal only. No code existed before 3:35pm PT on 2 Nov 2026.
-- **AI tools:** Claude Code wrote the code.
+- **Prior work:** none. We came in with a design (problem, temporal fact-store approach, evaluation protocol) and built the whole system during the hackathon.
+- **AI tools:** built with AI-assisted coding (Claude Code).
 - **Team:** Nodar Danelia and Alan Piovesana.
